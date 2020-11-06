@@ -6,8 +6,9 @@
 
 
 .btn {
-  color: lighten(@text-color, 6%);
+  color: darken(@text-color, 6%);
   background-color: @button-background-color;
+  box-shadow: 0px 0px 3px @text-color-highlight;
   &:hover,
   &:focus {
     color: @text-color-highlight;
